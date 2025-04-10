@@ -108,7 +108,7 @@ def create_summary_dashboard(summary_table, filename='summary_dashboard.png'):
 def plot_histogram(column, filename='histogram.png'):
     plt.figure(figsize=(10, 6))
     sns.histplot(column.dropna(), bins=30)
-    plt.title('Histogram of ' + column.name)
+    plt.title('Histogram of ' + column.name)#
     plt.xlabel(column.name)
     plt.ylabel('Frequency')
     plt.savefig("fig/" + filename, dpi=300, bbox_inches='tight')
@@ -130,10 +130,10 @@ if __name__ == "__main__":
     # Load dataset
     df = pd.read_csv('data/basic/ODI-2025 - adjusted.csv')
 
-    # Summarize and visualize
-    summary_table = summarize_variables(df)
-    create_summary_table_visualization(summary_table)
-    create_summary_dashboard(summary_table)
+    df = df.drop(df.index[-1])
+
+    age = df['sports_hours']
+    plot_histogram(age, filename='age_histogram.png')
 
    
     
