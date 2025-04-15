@@ -27,6 +27,7 @@ def main():
 
     data_cleaned = remove_duplicates(data)
     data_cleaned = remove_iqr_outliers(data, threshold=1.5)
+    data_cleaned = convert_bedtime_to_sleeptime_10am(data_cleaned)
 
     analyze_data(data_cleaned, name_extension='_clean', iqr_thresh=float('inf'))
 

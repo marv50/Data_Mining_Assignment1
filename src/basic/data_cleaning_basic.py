@@ -2,6 +2,23 @@ import numpy as np
 import numpy as np
 import pandas as pd
 
+def calculate_sleep_duration(bedtime):
+        bedtime = pd.to_datetime(bedtime, format='%H:%M:%S', errors='coerce')
+        print(bedtime)
+        if pd.isna(bedtime):
+            return np.nan
+        if bedtime.hour >= 0 and bedtime.hour <= 10:
+            next_day_10am = bedtime.replace(hour=10, minute=0)
+        else:
+            next_day_10am = bedtime.replace(hour=10, minute=0) + pd.Timedelta(days=1)
+        sleep_duration = (next_day_10am - bedtime).total_seconds() / 3600
+        return sleep_duration
+
+def convert_bedtime_to_sleeptime_10am(data_frame):
+    if 'bedtime' in data_frame.columns:
+        data_frame['sleep_duration_to_10am'] = data_frame['bedtime'].apply(calculate_sleep_duration)
+    return data_frame
+
 
 def remove_duplicates(data_frame):
     return data_frame.drop_duplicates()

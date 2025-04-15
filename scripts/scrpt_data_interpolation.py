@@ -19,8 +19,15 @@ def main():
 
     for cat_method, num_method in combinations:
         data_copy = data.copy()
-        data_copy = impute_categoricals(data_copy, categorical_cols, method=cat_method, k=3)
-        data_copy = impute_numericals(data_copy, numeric_cols, method=num_method, k=3)
+        if cat_method == "mode":
+            data_copy = impute_categoricals_mode(data_copy, categorical_cols)
+        elif cat_method == "knn":
+            data_copy = impute_categoricals_knn(data_copy, categorical_cols, k=3)
+            
+        if num_method == "median":
+            data_copy = impute_numericals_median(data_copy, numeric_cols)
+        elif num_method == "knn":
+            data_copy = impute_numericals_knn(data_copy, numeric_cols, k=3)
 
         filename = f"cat-{cat_method}_num-{num_method}.csv"
         file_path = os.path.join(os.path.dirname(__file__), "..", 'data', 'basic', filename)
