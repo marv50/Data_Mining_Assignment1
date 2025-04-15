@@ -1,0 +1,18 @@
+Column,Data Type,Non-Null Count,Missing Count,Unique Values,Min,Max,Mean,Outlier Count (IQR),Max and Min
+timestamp,datetime64[ns],173,0,109,,,,,
+program,object,173,0,23,,,,,
+ml_course,category,172,2,2,,,,,
+ir_course,category,155,36,2,,,,,
+stats_course,object,173,0,3,,,,,
+db_course,category,167,12,2,,,,,
+gender,object,173,0,4,,,,,
+used_chatgpt,category,137,72,2,,,,,
+birthday,datetime64[ns],116,114,109,,,,,
+room_estimate,float64,167,12,46,-3.0,600.0,341.57485,0.0,"[-3.0, 600.0]"
+stress_level,float64,169,8,48,-10.0,110.0,46.86349,0.0,"[-10.0, 110.0]"
+sports_hours,float64,166,14,14,0.0,15.0,5.28916,0.0,"[0.0, 15.0]"
+random_number,float64,165,16,72,-1.0,888.0,65.82667,0.0,"[-1.0, 888.0]"
+bedtime,object,157,32,48,,,,,
+good_day_1,object,173,0,130,,,,,
+good_day_2,object,173,0,143,,,,,
+est_age_days,float64,116,114,109,7313.0,10464.0,8718.98276,0.0,"[7313.0, 10464.0]"
