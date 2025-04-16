@@ -42,10 +42,8 @@ def summarize_dataframe(df, iqr_thresh=float('inf')):
         missing_count = col_data.isnull().sum() + col_data.isna().sum()
         unique_count = col_data.nunique()
 
-        if col_dtype == 'float64':
-            example_values = [float(col_data.dropna().min()), float(col_data.dropna().max())]
-        else:
-            example_values = None
+        example_values = col_data.dropna().unique()[:3] if non_null_count > 0 else []
+        example_values = [str(val) for val in example_values]  # Convert to string for better readability
 
         min_val, max_val, mean_val, outlier_count = None, None, None, None
 
@@ -72,14 +70,14 @@ def summarize_dataframe(df, iqr_thresh=float('inf')):
             'Max': max_val,
             'Mean': mean_val,
             'Outlier Count (IQR)': outlier_count,
-            'Max and Min': example_values
+            'Example Values': example_values
         })
 
     summary_df = pd.DataFrame(summary)
     return summary_df
 
 def summarize_categories(df, file_name="summarized_categories.csv"):
-    file_path = os.path.join(os.path.dirname(__file__), "..", 'data', 'basic', file_name)
+    file_path = os.path.join(os.path.dirname(__file__), "..", "..", 'data', 'basic', file_name)
     print("\n~~~~~~~~~~~~~~~ Categorical Feature Distributions ~~~~~~~~~~~~~~~")
     summary = []
     for col in df.select_dtypes(include='object').columns:

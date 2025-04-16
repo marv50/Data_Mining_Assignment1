@@ -15,6 +15,7 @@ def plot_distributions(dataframe, file_name=None):
     if file_name is not None:
         file_path = os.path.join(os.path.dirname(__file__), "..", "..", 'fig', file_name)
         plt.savefig(file_path, dpi=300)
+        
     plt.show()
 
 def plot_correlation_heatmap(dataframe, file_name=None):
@@ -44,6 +45,25 @@ def create_summary_table_visualization(dataframe, file_name=None):
     table.auto_set_column_width(col=list(range(len(dataframe.columns))))
 
     plt.title("Summary Statistics for Variables", pad=20, fontsize=16)
+    plt.tight_layout()
+
+    if file_name is not None:
+        file_path = os.path.join(os.path.dirname(__file__), "..", "..", 'fig', file_name)
+        plt.savefig(file_path, dpi=300)
+
+    plt.show()
+
+
+def plot_positional_times(dataframe, file_name=None):
+    plt.figure(figsize=(6, 6))
+    plt.scatter(dataframe['bedtime_sin'], dataframe['bedtime_cos'], alpha=0.6)
+    plt.title('Positional Bedtime')
+    plt.ylabel('cos(angle)')
+    plt.xlabel('sin(angle)')
+    plt.grid(True)
+    plt.axis('equal')
+    plt.xlim(-1.25, 1.25)
+    plt.ylim(-1.25, 1.25)
     plt.tight_layout()
 
     if file_name is not None:
