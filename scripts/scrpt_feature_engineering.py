@@ -10,7 +10,18 @@ from src.basic.interpolation_basic import *
 from sklearn.preprocessing import OrdinalEncoder
 from scripts.scrpt_utils import analyze_data
 
-def feature_engineering(data_frame):
+def main():
+    """
+    Read and analyze a dataset, feature engineer it, and save the feature engineered data to a CSV file.
+    The script performs the following tasks:
+    1. Reads a CSV file containing the dataset.
+    2. Analyzes the dataset by exploring its structure and generating summary statistics.
+    3. Feature engineers the dataset by converting bedtime to sleep time, converting to positional times, and removing outliers.
+    4. Converts categorical columns to categorical data types and binary float columns to categorical data types.
+    5. Plots positional times and saves the plots.
+    6. Summarizes the categorical features and saves the summary to a CSV file.
+    7. Saves the feature engineered dataset to a new CSV file.
+    """
     read_file_path = os.path.join(os.path.dirname(__file__), "..", 'data', 'basic', 'basic_cleaned.csv')
     data_cleaned = read_csv(read_file_path)
 
@@ -37,8 +48,6 @@ def feature_engineering(data_frame):
 
     return data_feature_engineered
 
-def main():
-    feature_engineering(data_frame=None)
 
 
 if __name__ == "__main__":
