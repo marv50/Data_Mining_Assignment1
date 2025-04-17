@@ -85,29 +85,30 @@ def impute_numericals(df, num_cols, method='median', k=5):
 
     return df
 
-# --------- Full Pipeline ---------
-# Step 1: Classify
-categorical_cols, numeric_cols = classify_columns(df)
+if __name__ == "__main__":
+    # --------- Full Pipeline ---------
+    # Step 1: Classify
+    categorical_cols, numeric_cols = classify_columns(df)
 
-# Step 2: Fix binary floats
-df = convert_binary_floats_to_categoricals(df, categorical_cols)
+    # Step 2: Fix binary floats
+    df = convert_binary_floats_to_categoricals(df, categorical_cols)
 
-# Step 2.5: Replace outliers with NaN
-df = replace_outliers_with_nan(df, numeric_cols)
+    # Step 2.5: Replace outliers with NaN
+    df = replace_outliers_with_nan(df, numeric_cols)
 
-# Step 3: Impute combinations and save
-combinations = [
-    ("mode", "median"),
-    ("mode", "knn"),
-    ("knn", "median"),
-    ("knn", "knn"),
-]
+    # Step 3: Impute combinations and save
+    combinations = [
+        ("mode", "median"),
+        ("mode", "knn"),
+        ("knn", "median"),
+        ("knn", "knn"),
+    ]
 
-for cat_method, num_method in combinations:
-    df_copy = df.copy()
-    df_copy = impute_categoricals(df_copy, categorical_cols, method=cat_method, k=3)
-    df_copy = impute_numericals(df_copy, numeric_cols, method=num_method, k=3)
+    for cat_method, num_method in combinations:
+        df_copy = df.copy()
+        df_copy = impute_categoricals(df_copy, categorical_cols, method=cat_method, k=3)
+        df_copy = impute_numericals(df_copy, numeric_cols, method=num_method, k=3)
 
-    filename = f"cat-{cat_method}_num-{num_method}.csv"
-    df_copy.to_csv(os.path.join("data/basic", filename), index=False)
-    print(f"✅ Saved: {filename}")
+        filename = f"cat-{cat_method}_num-{num_method}.csv"
+        df_copy.to_csv(os.path.join("data/basic", filename), index=False)
+        print(f"✅ Saved: {filename}")
