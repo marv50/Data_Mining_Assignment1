@@ -8,6 +8,15 @@ from src.basic.feature_engineering_basic import *
 from scripts.scrpt_utils import analyze_data
 
 def main():
+    """
+    Read and analyze a dataset, clean it, and save the cleaned data to a CSV file.
+    The script performs the following tasks:
+    1. Reads a CSV file containing the dataset.
+    2. Analyzes the dataset by exploring its structure and generating summary statistics.
+    3. Cleans the dataset by removing duplicates and outliers using the IQR method.
+    4. Saves the cleaned dataset to a new CSV file.
+    5. Summarizes the categorical features and saves the summary to a CSV file.
+    """
     read_file_path = os.path.join(os.path.dirname(__file__), "..", 'data', 'basic', 'basic_manualadj.csv')
     data = read_csv(read_file_path)
 
