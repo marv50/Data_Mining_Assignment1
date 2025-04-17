@@ -65,15 +65,15 @@ def time_to_seconds(time_str):
         return np.nan
     
 def circular_encode_time(time_str):
-    if pd.isnull(time_str): return (np.nan, np.nan, np.nan)
+    if pd.isnull(time_str): return (np.nan, np.nan, np.nan, np.nan)
     seconds = time_to_seconds(time_str)
     angle = 2 * np.pi * seconds / 86400 
     angle_norm = np.arctan2(np.sin(angle), np.cos(angle))
 
-    return np.sin(angle), np.cos(angle), angle_norm
+    return np.sin(angle), np.cos(angle), angle_norm, angle
 
 def convert_to_positional_times(data_frame):
-    data_frame['bedtime_sin'], data_frame['bedtime_cos'], data_frame['bedtime_anglenorm'] = zip(*data_frame['bedtime'].apply(circular_encode_time))
+    data_frame['bedtime_sin'], data_frame['bedtime_cos'], data_frame['bedtime_anglenorm'], data_frame['bedtime_angle'] = zip(*data_frame['bedtime'].apply(circular_encode_time))
     
     return data_frame
 

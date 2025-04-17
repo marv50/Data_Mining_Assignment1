@@ -43,10 +43,14 @@ def interpolate_sin_cos(data_frame):
     if 'bedtime_sin' in data_frame.columns and 'bedtime_cos' in data_frame.columns:
         angles = np.arctan2(data_frame['bedtime_sin'], data_frame['bedtime_cos'])
         
-        angles_interpolated = pd.Series(angles).interpolate(method='linear')
+        anglesnorm_interpolated = pd.Series(angles).interpolate(method='linear')
+        
+        # Ensure all angles are in the range [0, 2π)
+        angles_interpolated = anglesnorm_interpolated % (2 * np.pi)
         
         data_frame['bedtime_sin'] = np.sin(angles_interpolated)
         data_frame['bedtime_cos'] = np.cos(angles_interpolated)
-        data_frame['bedtime_anglenorm'] = angles_interpolated
+        data_frame['bedtime_anglenorm'] = anglesnorm_interpolated
+        data_frame['bedtime_angle'] = angles_interpolated
     
     return data_frame

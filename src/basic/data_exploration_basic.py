@@ -32,7 +32,7 @@ def explore_dataset(dataframe):
     print("\n~~~~~~~~~~~~~~~ Missing Values ~~~~~~~~~~~~~~~")
     print(dataframe.isnull().sum())
 
-def summarize_dataframe(df, iqr_thresh=float('inf')):
+def summarize_dataframe(df, iqr_thresh=float('inf'), iqr_degree_thresh = 120):
     summary = []
 
     for col in df.columns:

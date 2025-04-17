@@ -36,6 +36,6 @@ def remove_time_outliers(data_frame, threshold_degrees=120):
         threshold_radians = 2 * np.pi * (threshold_degrees / 360)
         outlier_mask = angle_diff > threshold_radians
 
-        df.loc[outlier_mask, ['bedtime_sin', 'bedtime_cos']] = np.nan
+        df.loc[outlier_mask, ['bedtime_sin', 'bedtime_cos', 'bedtime_anglenorm', 'bedtime_angle']] = np.nan
 
     return df
