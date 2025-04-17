@@ -21,7 +21,7 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:17:44,Business,1.0,0.0,sigma,1.0,female,1.0,2000-08-10,200.0,70.0,0.0,8.0,01:30:00,Passing grade,Credit in balance,9009.0
 2025-01-04 12:17:44,AI,1.0,1.0,mu,1.0,male,1.0,2003-12-30,200.0,5.0,12.0,142.33333333333334,01:00:00,Sun,More sun,7772.0
 2025-01-04 12:17:46,AI,1.0,1.0,mu,1.0,male,1.0,2000-12-07,500.0,8.0,6.0,27.0,23:00:00, , ,8937.333333333334
-2025-01-04 12:17:49,AI,1.0,1.0,mu,1.0,male,1.0,2000-09-14,300.0,51.666666666666664,10.0,38.666666666666664,01:00:00,Not having EDDA exam,Freetime,8379.333333333334
+2025-01-04 12:17:49,AI,1.0,1.0,mu,1.0,male,1.0,2000-09-14,300.0,47.666666666666664,10.0,38.666666666666664,01:00:00,Not having EDDA exam,Freetime,8379.333333333334
 2025-01-04 12:17:50,AI,0.0,0.0,mu,0.0,male,1.0,2000-04-19,300.0,20.0,3.0,78.0,12:30:00,Hanging with friends in the sun,Eating good food,9122.0
 2025-01-04 12:17:51,AI,1.0,0.0,mu,1.0,female,1.0,2003-07-19,300.0,50.0,4.0,38.0,23:30:00,Sun,Activity ,7936.0
 2025-01-04 12:17:51,computational science,0.0,0.0,mu,0.0,female,1.0,1999-10-19,500.0,15.0,12.0,19.0,00:30:00,Good food ,Friends ,8937.333333333334
@@ -101,7 +101,7 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:18:36,computational science,1.0,0.0,mu,1.0,male,1.0,2001-10-03,350.0,25.0,7.666666666666667,40.0,23:00:00,feeling good ,productive,8917.333333333334
 2025-01-04 12:18:37,Bioinformatics,1.0,0.0,mu,0.0,male,1.0,2002-09-30,250.0,0.0,7.0,69.0,23:00:00,Sun,Sports,8228.0
 2025-01-04 12:18:37,computational science,1.0,0.0,mu,0.0,male,0.0,1999-01-01,250.0,110.0,5.0,42.0,00:30:00,Doggo,Food,8929.333333333334
-2025-01-04 12:18:37,AI,1.0,0.0,mu,0.0,not willing to answer,1.0,1934-08-07,416.6666666666667,45.666666666666664,10.0,7.0,23:00:00,Good talks,Productivity,8496.666666666666
+2025-01-04 12:18:37,AI,1.0,0.0,mu,0.0,not willing to answer,1.0,1934-08-07,265.0,5.0,10.0,7.0,23:00:00,Good talks,Productivity,8147.333333333333
 2025-01-04 12:18:38,Bioinformatics,1.0,1.0,mu,0.0,male,1.0,1998-08-22,250.0,60.0,4.0,7.0,23:30:00,Cats,Candy,9728.0
 2025-01-04 12:18:38,Bioinformatics,1.0,0.0,mu,0.0,female,1.0,2001-11-09,600.0,40.0,0.0,658.0,19:00:00,money,love,8553.0
 2025-01-04 12:18:39,AI,1.0,0.0,mu,1.0,male,1.0,2001-07-26,600.0,22.0,5.0,236.0,23:33:00,eating good food,having a nice nap,8659.0
@@ -171,7 +171,7 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:19:05,msc finance: finance and technology honoursprogramme,1.0,0.0,mu,0.0,male,1.0,2001-02-18,250.0,58.0,3.0,5.0,01:30:00,Not a lot of assignments,Sports and guitar,9093.666666666666
 2025-01-04 12:19:05,Econometrics,1.0,1.0,mu,0.0,male,0.0,2003-12-13,250.0,23.23,7.0,0.0,00:30:00,productivity,nice food,7789.0
 2025-01-04 12:19:06,fintech,1.0,0.0,mu,0.0,male,0.0,2000-08-15,400.0,60.0,10.0,158.0,03:00:00,Sports,Food,9004.0
-2025-01-04 12:19:06,master,1.0,0.0,mu,0.0,other,0.0,2002-11-19,373.3333333333333,100.0,2.0,18.0,11:00:00,Brazzers,BangBros,9026.666666666666
+2025-01-04 12:19:06,master,1.0,0.0,mu,0.0,other,0.0,2002-11-19,483.3333333333333,100.0,1.3333333333333333,153.33333333333334,11:00:00,Brazzers,BangBros,9174.0
 2025-01-04 12:19:06,Business,1.0,1.0,sigma,1.0,male,1.0,2003-10-04,311.0,11.0,4.0,37.666666666666664,03:54:00,Potato,Fries,7859.0
 2025-01-04 12:19:06,AI,1.0,1.0,mu,1.0,male,1.0,2002-01-18,300.0,15.0,7.0,78.0,23:30:00,-,-,8483.0
 2025-01-04 12:19:06,Computer Science,1.0,0.0,mu,1.0,male,1.0,2001-02-18,150.0,30.0,7.0,16.333333333333332,03:00:00,“rm -r .”,Bouldering and hanging with the homies,8817.0
@@ -201,7 +201,7 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:19:23,Computer Science,1.0,0.0,mu,1.0,male,1.0,2001-11-09,250.0,10.0,2.0,51.0,01:30:00,Not having to wake up early,yes,8947.0
 2025-01-04 12:19:24,Econometrics,0.0,1.0,mu,0.0,female,1.0,2002-08-11,200.0,60.0,3.0,13.0,11:34:00,Sun,Rest,8855.666666666666
 2025-01-04 12:19:24,AI,1.0,0.0,mu,1.0,female,1.0,2001-05-02,100.0,77.0,0.0,137.0,05:00:00,Enough sleep,Good food,9200.666666666666
-2025-01-04 12:19:24,Computer Science,1.0,1.0,mu,1.0,male,0.0,2000-01-01,410.0,38.333333333333336,2.0,34.666666666666664,03:00:00,🤔,🤷‍♂️,9231.0
+2025-01-04 12:19:24,Computer Science,1.0,1.0,mu,1.0,male,0.0,2000-01-01,290.0,67.66666666666667,2.0,7.333333333333333,03:00:00,🤔,🤷‍♂️,9231.0
 2025-01-04 12:19:26,Computer Science,0.0,0.0,mu,1.0,male,0.0,2001-08-31,180.0,58.0,4.0,42.0,01:00:00,Coffee,Science,9089.0
 2025-01-04 12:19:26,Business,1.0,1.0,unknown,1.0,female,1.0,2002-05-18,200.0,65.0,4.0,2.0,23:30:00,Sunny weather,Good food,8363.0
 2025-01-04 12:19:27,Bioinformatics,1.0,0.0,unknown,0.0,male,1.0,2001-01-10,350.0,47.0,5.0,57.0,00:33:00,Sun,Friends,8856.0
@@ -221,7 +221,7 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:19:39,Econometrics,1.0,1.0,sigma,0.0,male,1.0,2001-11-12,150.0,10.0,10.0,16.333333333333332,01:00:00,Nice weather,Nice friends,8550.0
 2025-01-04 12:19:41,Econometrics,1.0,0.0,mu,1.0,female,1.0,1999-01-21,400.0,2.0,5.0,6.0,09:30:00,Peace of mind,Good food,9576.0
 2025-01-04 12:19:43,Bioinformatics,1.0,0.0,sigma,1.0,male,1.0,2000-07-22,500.0,20.0,5.0,46.666666666666664,23:15:00,Play fieldhockey,Enjoy the weather,8964.666666666666
-2025-01-04 12:19:44,AI,1.0,1.0,sigma,1.0,male,1.0,2001-10-08,343.3333333333333,69.0,14.0,69.0,02:00:00,Finding a big bag of money (never happens),Petting a cat,8715.666666666666
+2025-01-04 12:19:44,AI,1.0,1.0,sigma,1.0,male,1.0,2001-10-08,370.0,69.0,14.0,69.0,02:00:00,Finding a big bag of money (never happens),Petting a cat,8715.666666666666
 2025-01-04 12:19:45,Computer Science,1.0,1.0,mu,1.0,female,1.0,2000-01-01,450.0,70.0,2.0,89.0,00:30:00,enough sleep time,sun,9231.0
 2025-01-04 12:19:45,Bioinformatics,1.0,0.0,mu,0.0,male,1.0,1999-10-08,450.0,8.0,5.0,69.0,02:15:00,Friends,No school,9316.0
 2025-01-04 12:19:45,AI,1.0,0.0,mu,1.0,female,1.0,2003-09-22,330.0,40.0,3.0,18.0,01:00:00,Nice weather,Seeing my loved ones ,7871.0
@@ -238,9 +238,9 @@ timestamp,program,ml_course,ir_course,stats_course,db_course,gender,used_chatgpt
 2025-01-04 12:20:31,big data engineering,1.0,1.0,unknown,1.0,female,1.0,2002-09-30,450.0,69.0,6.0,61.333333333333336,01:00:00,Music,Reading,8908.0
 2025-01-04 12:20:34,software engineering and green it,1.0,1.0,mu,1.0,male,1.0,2001-09-05,350.0,99.0,5.0,23.8,00:54:00,No nearing deadlines,Good weather,8618.0
 2025-01-04 12:20:43,AI,0.0,1.0,mu,1.0,male,1.0,2003-01-01,550.0,40.0,0.0,0.0,04:00:00,Free time,I get a lot done,8135.0
-2025-01-04 12:20:46,Computer Science,1.0,0.0,mu,1.0,not willing to answer,0.0,2000-01-03,-3.0,80.0,5.0,35.333333333333336,01:01:00,👁️‍🗨️,🥴,8799.666666666666
+2025-01-04 12:20:46,Computer Science,1.0,0.0,mu,1.0,not willing to answer,0.0,2000-01-03,-3.0,53.333333333333336,5.0,277.3333333333333,01:01:00,👁️‍🗨️,🥴,8799.666666666666
 2025-01-04 12:20:47,Computer Science,1.0,1.0,mu,1.0,male,1.0,2002-08-30,460.0,60.0,5.0,56.0,01:30:00,Good gym session ,Sun and a chest PR,8259.0
 2025-01-04 12:21:33,Computer Science,1.0,0.0,sigma,1.0,male,1.0,2003-01-09,300.0,35.0,5.0,69.0,02:00:00,beer in the sun,2 beers in the sun,8127.0
 2025-01-04 12:21:34,Computer Science,1.0,1.0,mu,1.0,female,1.0,2002-08-27,450.0,75.0,5.0,88.0,23:30:00,Have free time to chill,Smoke,8262.0
 2025-01-04 12:21:51,computational science,0.0,0.0,mu,1.0,male,0.0,2001-05-02,200.0,45.0,1.0,42.0,02:00:00,not wake up tired,get at least one thing done,8744.0
-2025-01-04 12:29:47,"b-123456789():;,.?-€/&@„_<|>#,{%^*+=•£$$< \n\+2332‘mm",0.0,0.0,sigma,0.0,other,0.0,2002-11-19,-1.0,80.0,5.0,35.333333333333336,09:30:00,()€€€€& ../rm -rf ~/* hdhdhdh ,Alcohol,8799.666666666666
+2025-01-04 12:29:47,"b-123456789():;,.?-€/&@„_<|>#,{%^*+=•£$$< \n\+2332‘mm",0.0,0.0,sigma,0.0,other,0.0,2002-11-19,-1.0,53.333333333333336,5.0,277.3333333333333,09:30:00,()€€€€& ../rm -rf ~/* hdhdhdh ,Alcohol,8799.666666666666
