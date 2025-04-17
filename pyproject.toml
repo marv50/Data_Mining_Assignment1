@@ -3,7 +3,7 @@ requires = ["flit_core >=3.11,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "Data_Mining_Assignment1"
+name = "src"
 version = "0.1"
 description = "Data Mining Assignment 1"
 authors = [
@@ -16,7 +16,11 @@ license = "MIT"
 license-files = ["LICENSE"]
 dependencies = [
     "matplotlib",
-    "numpy"
+    "numpy",
+    "pandas",
+    "scipy",
+    "seaborn",
+    "scikit-learn"
 ]
 
 [project.urls]
