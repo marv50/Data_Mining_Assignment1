@@ -45,7 +45,6 @@ def interpolate_sin_cos(data_frame):
         
         anglesnorm_interpolated = pd.Series(angles).interpolate(method='linear')
         
-        # Ensure all angles are in the range [0, 2π)
         angles_interpolated = anglesnorm_interpolated % (2 * np.pi)
         
         data_frame['bedtime_sin'] = np.sin(angles_interpolated)

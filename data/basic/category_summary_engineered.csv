@@ -1,16 +1,16 @@
 Value,Count,Column
-23:00:00,23,bedtime
 01:00:00,23,bedtime
+23:00:00,23,bedtime
 23:30:00,22,bedtime
 ,21,bedtime
 00:30:00,19,bedtime
 02:00:00,18,bedtime
-00:00:00,10,bedtime
 01:30:00,10,bedtime
+00:00:00,10,bedtime
 01:02:00,9,bedtime
 03:00:00,8,bedtime
-05:00:00,7,bedtime
 04:00:00,7,bedtime
+05:00:00,7,bedtime
 22:30:00,6,bedtime
 12:30:00,5,bedtime
 22:00:00,4,bedtime
@@ -21,39 +21,39 @@ Value,Count,Column
 00:40:00,2,bedtime
 21:30:00,2,bedtime
 00:10:00,2,bedtime
-14:00:00,1,bedtime
-00:31:00,1,bedtime
-01:23:00,1,bedtime
-00:45:00,1,bedtime
-00:54:00,1,bedtime
-12:34:00,1,bedtime
-11:00:00,1,bedtime
-00:33:00,1,bedtime
-22:40:00,1,bedtime
-23:15:00,1,bedtime
-01:37:00,1,bedtime
-04:30:00,1,bedtime
-23:57:00,1,bedtime
-03:54:00,1,bedtime
-02:15:00,1,bedtime
-23:59:00,1,bedtime
-23:33:00,1,bedtime
-22:45:00,1,bedtime
-01:03:00,1,bedtime
-10:37:00,1,bedtime
 23:55:00,1,bedtime
-19:00:00,1,bedtime
-21:45:00,1,bedtime
-23:40:00,1,bedtime
+01:03:00,1,bedtime
 12:45:00,1,bedtime
-09:30:00,1,bedtime
+23:40:00,1,bedtime
+21:45:00,1,bedtime
+19:00:00,1,bedtime
+10:37:00,1,bedtime
+23:59:00,1,bedtime
 11:34:00,1,bedtime
-23:25:00,1,bedtime
-23:16:00,1,bedtime
+09:30:00,1,bedtime
 01:01:00,1,bedtime
 01:22:00,1,bedtime
 02:30:00,1,bedtime
 09:00:00,1,bedtime
+22:45:00,1,bedtime
+23:33:00,1,bedtime
+23:25:00,1,bedtime
+23:16:00,1,bedtime
+02:15:00,1,bedtime
+23:57:00,1,bedtime
+00:31:00,1,bedtime
+01:23:00,1,bedtime
+00:45:00,1,bedtime
+00:54:00,1,bedtime
+11:00:00,1,bedtime
+12:34:00,1,bedtime
+23:15:00,1,bedtime
+01:37:00,1,bedtime
+04:30:00,1,bedtime
+03:54:00,1,bedtime
+00:33:00,1,bedtime
+22:40:00,1,bedtime
+14:00:00,1,bedtime
 11:35:00,1,bedtime
 Sun,19,good_day_1
 Good food,8,good_day_1
@@ -61,41 +61,100 @@ Sports,7,good_day_1
 Nice weather,6,good_day_1
 sun,5,good_day_1
 Coffee,4,good_day_1
-Good weather,3,good_day_1
-Food,3,good_day_1
-Sunny weather,3,good_day_1
 Good food ,3,good_day_1
+Sunny weather,3,good_day_1
+Friends,3,good_day_1
+Food,3,good_day_1
 Good sleep,3,good_day_1
 Sunshine,3,good_day_1
-Friends,3,good_day_1
-When the sun is out,2,good_day_1
--,2,good_day_1
-Sun ,2,good_day_1
-The sun,2,good_day_1
-good food,2,good_day_1
-Hanging out with friends,2,good_day_1
-Sleep,2,good_day_1
-Cats,2,good_day_1
+Good weather,3,good_day_1
 Good Breakfast,2,good_day_1
-productivity,2,good_day_1
-Productivity,2,good_day_1
+Cats,2,good_day_1
 Free time,2,good_day_1
+good food,2,good_day_1
+-,2,good_day_1
+When the sun is out,2,good_day_1
+The sun,2,good_day_1
+Sleep,2,good_day_1
+Hanging out with friends,2,good_day_1
+productivity,2,good_day_1
+Sun ,2,good_day_1
+Productivity,2,good_day_1
 dance,1,good_day_1
-Making someone smile,1,good_day_1
-Money,1,good_day_1
-🤔,1,good_day_1
-Zonnetje,1,good_day_1
-Good food and no econometrics courses,1,good_day_1
-Travel,1,good_day_1
-Spending time with Marc,1,good_day_1
-No school,1,good_day_1
-You :),1,good_day_1
-Not a lot of assignments,1,good_day_1
-Booking tickets,1,good_day_1
-“rm -r .”,1,good_day_1
-Not having to wake up early,1,good_day_1
-Videogames all day,1,good_day_1
-Sex,1,good_day_1
+Reading,1,good_day_1
+That I feel content and happy,1,good_day_1
+workout,1,good_day_1
+Seeing friends,1,good_day_1
+money,1,good_day_1
+sleeping,1,good_day_1
+Peace,1,good_day_1
+"Sun, good food, being productive",1,good_day_1
+Sleeping in,1,good_day_1
+being able to exercise,1,good_day_1
+"good, sunny weather",1,good_day_1
+Sun1,1,good_day_1
+Seeing my friends,1,good_day_1
+Sunny day spent with friends ,1,good_day_1
+Enough sleep,1,good_day_1
+Sun Shining,1,good_day_1
+a good breakfast ,1,good_day_1
+having chocolate,1,good_day_1
+My boyfriend,1,good_day_1
+Good meal,1,good_day_1
+Running in the morning,1,good_day_1
+grade 10,1,good_day_1
+being outside in the sun,1,good_day_1
+enough sleep time,1,good_day_1
+no course,1,good_day_1
+seeing friends,1,good_day_1
+Getting enough sleep,1,good_day_1
+sunshine,1,good_day_1
+feeling productive,1,good_day_1
+Bubble tea,1,good_day_1
+Passing grade,1,good_day_1
+Sunny day,1,good_day_1
+getting some work done,1,good_day_1
+I take the ADHD medicine ,1,good_day_1
+Stick to my daily routine,1,good_day_1
+Sunny weather ,1,good_day_1
+With friends I love,1,good_day_1
+Rain,1,good_day_1
+Sunny,1,good_day_1
+Good work,1,good_day_1
+Doing things I want to do,1,good_day_1
+Doing a sport,1,good_day_1
+Sun and good food,1,good_day_1
+Praying 5 times on time,1,good_day_1
+Not having EDDA exam,1,good_day_1
+Going to gym,1,good_day_1
+Ajax winning,1,good_day_1
+Warm,1,good_day_1
+Music,1,good_day_1
+Nice food,1,good_day_1
+Sleep in,1,good_day_1
+Have free time to chill,1,good_day_1
+Mama’s food,1,good_day_1
+doing sports,1,good_day_1
+Gym,1,good_day_1
+Being with someone i love,1,good_day_1
+Doing sports,1,good_day_1
+Hanging with friends in the sun,1,good_day_1
+Performing some sports,1,good_day_1
+Chocolate ,1,good_day_1
+"Mild weather, no lectures, good food",1,good_day_1
+Passing EDDA,1,good_day_1
+ ,1,good_day_1
+Feeling energized,1,good_day_1
+eating good food,1,good_day_1
+Yoga,1,good_day_1
+beer,1,good_day_1
+snorkeling,1,good_day_1
+Sunshine ,1,good_day_1
+no studying,1,good_day_1
+A good day,1,good_day_1
+Waking up refreshed,1,good_day_1
+Cola,1,good_day_1
+A beer after a exam,1,good_day_1
 Get a lot of sleep(at least 8 hours),1,good_day_1
 Personal record in the gym,1,good_day_1
 Banana,1,good_day_1
@@ -103,48 +162,45 @@ Doggo,1,good_day_1
 Motorcycle ride,1,good_day_1
 No assignments need to do,1,good_day_1
 not wake up tired,1,good_day_1
-feeling good ,1,good_day_1
-Passing courses,1,good_day_1
+Nothing ,1,good_day_1
+Delicious food,1,good_day_1
+Peace of mind,1,good_day_1
 Not going to uni,1,good_day_1
+feeling good ,1,good_day_1
+Sex,1,good_day_1
 Achivements,1,good_day_1
-go out of the house ,1,good_day_1
-A cold beer,1,good_day_1
-nothing to do,1,good_day_1
-no responsibilities,1,good_day_1
+Not having to wake up early,1,good_day_1
 Good gym session ,1,good_day_1
+A cold beer,1,good_day_1
+go out of the house ,1,good_day_1
+Videogames all day,1,good_day_1
+Passing courses,1,good_day_1
+“rm -r .”,1,good_day_1
+🤔,1,good_day_1
+Making someone smile,1,good_day_1
+Money,1,good_day_1
+Zonnetje,1,good_day_1
+nothing to do,1,good_day_1
+Spending time with Marc,1,good_day_1
+Good food and no econometrics courses,1,good_day_1
+No school,1,good_day_1
+You :),1,good_day_1
+Not a lot of assignments,1,good_day_1
+Booking tickets,1,good_day_1
 No nearing deadlines,1,good_day_1
-gezelligheid,1,good_day_1
+no responsibilities,1,good_day_1
 Baking,1,good_day_1
-Beer ,1,good_day_1
-weed,1,good_day_1
-eating,1,good_day_1
-Good talks,1,good_day_1
-Cooking,1,good_day_1
-no lectures,1,good_day_1
-Alcohol,1,good_day_1
-Az winning,1,good_day_1
-People,1,good_day_1
-delicious food,1,good_day_1
-happiness ,1,good_day_1
-Work done good,1,good_day_1
-Got nothing to do,1,good_day_1
-Chocolate,1,good_day_1
-Brazzers,1,good_day_1
-Studying,1,good_day_1
-Happy,1,good_day_1
-Chilling with buddies,1,good_day_1
-Pizza,1,good_day_1
 Drugs,1,good_day_1
-Potato,1,good_day_1
 Finding a big bag of money (never happens),1,good_day_1
-Cola,1,good_day_1
+gezelligheid,1,good_day_1
 Not having looking for x ,1,good_day_1
 Socialising ,1,good_day_1
 Good weather ,1,good_day_1
+Travel,1,good_day_1
 Play fieldhockey,1,good_day_1
 Reaching my calory goal,1,good_day_1
 Eating burrata,1,good_day_1
-no class,1,good_day_1
+Potato,1,good_day_1
 beer in the sun,1,good_day_1
 A day outside,1,good_day_1
 Fun,1,good_day_1
@@ -152,82 +208,26 @@ A fieldtrip with friends,1,good_day_1
 Boardgames with friends,1,good_day_1
 grounded,1,good_day_1
 Low stress,1,good_day_1
-A beer after a exam,1,good_day_1
-beer,1,good_day_1
-Waking up refreshed,1,good_day_1
-being able to exercise,1,good_day_1
-sunshine,1,good_day_1
-Getting enough sleep,1,good_day_1
-no course,1,good_day_1
-seeing friends,1,good_day_1
-enough sleep time,1,good_day_1
-being outside in the sun,1,good_day_1
-grade 10,1,good_day_1
-Running in the morning,1,good_day_1
-Sunny weather ,1,good_day_1
-Have free time to chill,1,good_day_1
-Sleep in,1,good_day_1
-Peace of mind,1,good_day_1
-getting some work done,1,good_day_1
-Nice food,1,good_day_1
-Delicious food,1,good_day_1
-Bubble tea,1,good_day_1
-Sleeping in,1,good_day_1
-I take the ADHD medicine ,1,good_day_1
-feeling productive,1,good_day_1
-My boyfriend,1,good_day_1
-Good meal,1,good_day_1
-Enough sleep,1,good_day_1
-Sun1,1,good_day_1
-Sunny day spent with friends ,1,good_day_1
-Seeing my friends,1,good_day_1
-Sun Shining,1,good_day_1
-a good breakfast ,1,good_day_1
-Seeing friends,1,good_day_1
-having chocolate,1,good_day_1
-sleeping,1,good_day_1
-money,1,good_day_1
-"good, sunny weather",1,good_day_1
-"Sun, good food, being productive",1,good_day_1
-Peace,1,good_day_1
-Passing grade,1,good_day_1
-Stick to my daily routine,1,good_day_1
-A good day,1,good_day_1
-Mama’s food,1,good_day_1
-Chocolate ,1,good_day_1
-Performing some sports,1,good_day_1
-Doing sports,1,good_day_1
- ,1,good_day_1
-That I feel content and happy,1,good_day_1
-Passing EDDA,1,good_day_1
-"Mild weather, no lectures, good food",1,good_day_1
-Reading,1,good_day_1
-Feeling energized,1,good_day_1
-eating good food,1,good_day_1
-Yoga,1,good_day_1
-workout,1,good_day_1
-snorkeling,1,good_day_1
-Sunshine ,1,good_day_1
-no studying,1,good_day_1
-Hanging with friends in the sun,1,good_day_1
-doing sports,1,good_day_1
-Sunny day,1,good_day_1
-Gym,1,good_day_1
-Music,1,good_day_1
-Nothing ,1,good_day_1
-Rain,1,good_day_1
-With friends I love,1,good_day_1
-Good work,1,good_day_1
-Sunny,1,good_day_1
-Praying 5 times on time,1,good_day_1
-Doing things I want to do,1,good_day_1
-Doing a sport,1,good_day_1
-Sun and good food,1,good_day_1
-Not having EDDA exam,1,good_day_1
-Going to gym,1,good_day_1
-Warm,1,good_day_1
-Ajax winning,1,good_day_1
-Being with someone i love,1,good_day_1
+no class,1,good_day_1
+Pizza,1,good_day_1
+delicious food,1,good_day_1
+Chilling with buddies,1,good_day_1
+weed,1,good_day_1
+eating,1,good_day_1
+Good talks,1,good_day_1
+Cooking,1,good_day_1
+no lectures,1,good_day_1
+Alcohol,1,good_day_1
+Az winning,1,good_day_1
+Beer ,1,good_day_1
+People,1,good_day_1
+happiness ,1,good_day_1
+Work done good,1,good_day_1
+Got nothing to do,1,good_day_1
+Chocolate,1,good_day_1
+Brazzers,1,good_day_1
+Studying,1,good_day_1
+Happy,1,good_day_1
 -1,1,good_day_1
 Good food,10,good_day_2
 Sun,9,good_day_2
@@ -235,85 +235,156 @@ Friends,8,good_day_2
 Food,6,good_day_2
 Free time,4,good_day_2
 sun,3,good_day_2
+Sports,3,good_day_2
 -,3,good_day_2
 Good sleep,3,good_day_2
-Sports,3,good_day_2
-nice weather,2,good_day_2
 Friends ,2,good_day_2
 Nice weather,2,good_day_2
+nice weather,2,good_day_2
 Good weather,2,good_day_2
+Doing something ,1,good_day_2
+No academic stress,1,good_day_2
+more sun ,1,good_day_2
+My friends ,1,good_day_2
+Sunny day,1,good_day_2
+Sun2,1,good_day_2
+Talking to friends,1,good_day_2
+F1,1,good_day_2
+Sun ,1,good_day_2
+spending time with my friends,1,good_day_2
+Nobody dies ,1,good_day_2
+not encountering a stressful situation,1,good_day_2
+going to a rave,1,good_day_2
+Sunny weather,1,good_day_2
+Activity ,1,good_day_2
+Drinking Matcha in the Sun,1,good_day_2
+good sleep,1,good_day_2
+Sun :)),1,good_day_2
+going for a walk,1,good_day_2
+love,1,good_day_2
+More food,1,good_day_2
+Travelling,1,good_day_2
+Nature,1,good_day_2
+Laughter ,1,good_day_2
+Seeing my loved ones ,1,good_day_2
+Drinks,1,good_day_2
+get outside,1,good_day_2
+No assignments,1,good_day_2
+socializing ,1,good_day_2
+no exam,1,good_day_2
+Healthy breakfast,1,good_day_2
+good food,1,good_day_2
+鲜锅兔,1,good_day_2
+Dog,1,good_day_2
+eating good food,1,good_day_2
+win lottery ,1,good_day_2
+Meeting new people,1,good_day_2
+Good grades ,1,good_day_2
+Smoke,1,good_day_2
+Cappuccino,1,good_day_2
+Free,1,good_day_2
+no work,1,good_day_2
+Rest,1,good_day_2
+friends,1,good_day_2
+Interacting with my loved ones,1,good_day_2
+time to make music,1,good_day_2
+Running in the sun,1,good_day_2
+Seeing friends,1,good_day_2
+coffee,1,good_day_2
+Nice company ,1,good_day_2
+Credit in balance,1,good_day_2
+go out with friends ,1,good_day_2
+Connect with some good person,1,good_day_2
+Family,1,good_day_2
+Hanging out with friends,1,good_day_2
+company,1,good_day_2
+Sunshine,1,good_day_2
+Nice food,1,good_day_2
+Reading,1,good_day_2
+Good exam result,1,good_day_2
+No uni,1,good_day_2
+Nothing ,1,good_day_2
+No work,1,good_day_2
+Travel,1,good_day_2
+Chocolate,1,good_day_2
+Sunny days,1,good_day_2
+Having the time to run,1,good_day_2
+Not having to do things I don't want to do,1,good_day_2
+Playing my bass guitar,1,good_day_2
+Good food and sun,1,good_day_2
+More sun,1,good_day_2
+Freetime,1,good_day_2
+Pilsie,1,good_day_2
+Seeing my parents and my younger brother doing fine,1,good_day_2
+No assignment deadline!!!,1,good_day_2
+Motivation ,1,good_day_2
+Edda,1,good_day_2
+not having anxiety,1,good_day_2
+Videogames,1,good_day_2
+I get a lot done,1,good_day_2
+Dad’s card ,1,good_day_2
+Eating good food,1,good_day_2
+Positive people around me ,1,good_day_2
+Meeting friends,1,good_day_2
+ ,1,good_day_2
+Chilling,1,good_day_2
+The sun,1,good_day_2
+"No assignments, no exam stress",1,good_day_2
+Weed,1,good_day_2
+Drugs,1,good_day_2
+Reaching the goals I set for myself that day,1,good_day_2
+having a nice nap,1,good_day_2
+Delicious food,1,good_day_2
+another beer,1,good_day_2
+eating,1,good_day_2
+No school,1,good_day_2
+gaming,1,good_day_2
+A bad day,1,good_day_2
+Candy,1,good_day_2
+exercise,1,good_day_2
+Gaming,1,good_day_2
+Seeing my dog,1,good_day_2
+Eat good food,1,good_day_2
+Apple,1,good_day_2
 Social interaction,1,good_day_2
 No lectures,1,good_day_2
-Stock trading profit,1,good_day_2
-Smiling,1,good_day_2
-Aperol,1,good_day_2
-nice food,1,good_day_2
-A bad day,1,good_day_2
-Active,1,good_day_2
-Being productive,1,good_day_2
-gaming,1,good_day_2
-Nice warm weather,1,good_day_2
-"Sun, exercise and beer",1,good_day_2
-No responsibilities,1,good_day_2
-High grade,1,good_day_2
-Focus,1,good_day_2
-No school,1,good_day_2
-Activity and food,1,good_day_2
-You again :),1,good_day_2
-Sports and guitar,1,good_day_2
-drinking beers,1,good_day_2
-eating,1,good_day_2
-Candy,1,good_day_2
-Less money,1,good_day_2
-🤷‍♂️,1,good_day_2
-Kissing the homies for good night ,1,good_day_2
 get at least one thing done,1,good_day_2
-Apple,1,good_day_2
-Eat good food,1,good_day_2
 Alcohol ,1,good_day_2
 productive,1,good_day_2
 No deadlines,1,good_day_2
 Socialising,1,good_day_2
 play a sport and instrument ,1,good_day_2
-Seeing my dog,1,good_day_2
-Bouldering and hanging with the homies,1,good_day_2
+Kissing the homies for good night ,1,good_day_2
 Science,1,good_day_2
-Gaming,1,good_day_2
-exercise,1,good_day_2
-Good sleep ,1,good_day_2
+can do anything,1,good_day_2
 yes,1,good_day_2
 Sun and a chest PR,1,good_day_2
 Sleeping,1,good_day_2
 Good food for free,1,good_day_2
-can do anything,1,good_day_2
-Petting a cat,1,good_day_2
+Bouldering and hanging with the homies,1,good_day_2
+finish task,1,good_day_2
+Time with friends,1,good_day_2
+Less money,1,good_day_2
+🤷‍♂️,1,good_day_2
+Stock trading profit,1,good_day_2
+Smiling,1,good_day_2
+Active,1,good_day_2
+Being productive,1,good_day_2
+Aperol,1,good_day_2
+nice food,1,good_day_2
+No responsibilities,1,good_day_2
+High grade,1,good_day_2
+Focus,1,good_day_2
+Activity and food,1,good_day_2
+You again :),1,good_day_2
+Sports and guitar,1,good_day_2
+Nice warm weather,1,good_day_2
+"Sun, exercise and beer",1,good_day_2
+Good sleep ,1,good_day_2
+drinking beers,1,good_day_2
 Hiking,1,good_day_2
-Productivity,1,good_day_2
-music,1,good_day_2
-"social, speding quality time with friends",1,good_day_2
-Progress,1,good_day_2
-Beers,1,good_day_2
-wind,1,good_day_2
-alcohol dose,1,good_day_2
-GAMING,1,good_day_2
-alcohol,1,good_day_2
-play ,1,good_day_2
-sleeping,1,good_day_2
 More drugs,1,good_day_2
-More alcohol,1,good_day_2
-Went to the gym,1,good_day_2
-Wine ,1,good_day_2
-Then smoke weed,1,good_day_2
-Interesting activities,1,good_day_2
-Bitterballen,1,good_day_2
-BangBros,1,good_day_2
-Learning,1,good_day_2
-Sub,1,good_day_2
-Dinner with family,1,good_day_2
-Completing targetted task,1,good_day_2
-Nice girls,1,good_day_2
-A sunny picnic,1,good_day_2
-Delicious food,1,good_day_2
+Petting a cat,1,good_day_2
 see above,1,good_day_2
 Great food,1,good_day_2
 Spots,1,good_day_2
@@ -332,99 +403,28 @@ Jamming with the homies,1,good_day_2
 Fun 2,1,good_day_2
 Nice friends,1,good_day_2
 Meditation,1,good_day_2
-another beer,1,good_day_2
-The sun,1,good_day_2
-having a nice nap,1,good_day_2
-Healthy breakfast,1,good_day_2
-love,1,good_day_2
-More food,1,good_day_2
-Travelling,1,good_day_2
-Nature,1,good_day_2
-socializing ,1,good_day_2
-No assignments,1,good_day_2
-get outside,1,good_day_2
-Dog,1,good_day_2
-no exam,1,good_day_2
-good food,1,good_day_2
-Sun :)),1,good_day_2
-鲜锅兔,1,good_day_2
-no work,1,good_day_2
-eating good food,1,good_day_2
-win lottery ,1,good_day_2
-Meeting new people,1,good_day_2
-Good grades ,1,good_day_2
-Smoke,1,good_day_2
-Cappuccino,1,good_day_2
-Free,1,good_day_2
-going for a walk,1,good_day_2
-good sleep,1,good_day_2
-Reaching the goals I set for myself that day,1,good_day_2
-company,1,good_day_2
-Doing something ,1,good_day_2
-spending time with my friends,1,good_day_2
-Sun ,1,good_day_2
-No academic stress,1,good_day_2
-more sun ,1,good_day_2
-Drinks,1,good_day_2
-Nice food,1,good_day_2
-Sunshine,1,good_day_2
-Seeing my loved ones ,1,good_day_2
-Laughter ,1,good_day_2
-Drinking Matcha in the Sun,1,good_day_2
-My friends ,1,good_day_2
-Sunny day,1,good_day_2
-Sun2,1,good_day_2
-Talking to friends,1,good_day_2
-going to a rave,1,good_day_2
-not encountering a stressful situation,1,good_day_2
-Nobody dies ,1,good_day_2
-Sunny weather,1,good_day_2
-Activity ,1,good_day_2
-Rest,1,good_day_2
-friends,1,good_day_2
-time to make music,1,good_day_2
-I get a lot done,1,good_day_2
-More sun,1,good_day_2
-Freetime,1,good_day_2
-Weed,1,good_day_2
-Drugs,1,good_day_2
-No assignment deadline!!!,1,good_day_2
-Motivation ,1,good_day_2
-Edda,1,good_day_2
-not having anxiety,1,good_day_2
-Videogames,1,good_day_2
-Dad’s card ,1,good_day_2
-Interacting with my loved ones,1,good_day_2
-Eating good food,1,good_day_2
-Positive people around me ,1,good_day_2
-Meeting friends,1,good_day_2
- ,1,good_day_2
-Chilling,1,good_day_2
-F1,1,good_day_2
-"No assignments, no exam stress",1,good_day_2
-finish task,1,good_day_2
-Time with friends,1,good_day_2
-Good food and sun,1,good_day_2
-Playing my bass guitar,1,good_day_2
-Not having to do things I don't want to do,1,good_day_2
-Having the time to run,1,good_day_2
-Running in the sun,1,good_day_2
-Seeing friends,1,good_day_2
-coffee,1,good_day_2
-Nice company ,1,good_day_2
-Credit in balance,1,good_day_2
-go out with friends ,1,good_day_2
-Connect with some good person,1,good_day_2
-Family,1,good_day_2
-Hanging out with friends,1,good_day_2
-No uni,1,good_day_2
-Good exam result,1,good_day_2
-Reading,1,good_day_2
-Nothing ,1,good_day_2
-Chocolate,1,good_day_2
-Sunny days,1,good_day_2
-No work,1,good_day_2
-Travel,1,good_day_2
-Pilsie,1,good_day_2
-Seeing my parents and my younger brother doing fine,1,good_day_2
+A sunny picnic,1,good_day_2
+Nice girls,1,good_day_2
+Completing targetted task,1,good_day_2
+Dinner with family,1,good_day_2
+music,1,good_day_2
+"social, speding quality time with friends",1,good_day_2
+Progress,1,good_day_2
+Beers,1,good_day_2
+wind,1,good_day_2
+alcohol dose,1,good_day_2
+GAMING,1,good_day_2
+alcohol,1,good_day_2
+play ,1,good_day_2
+Productivity,1,good_day_2
+sleeping,1,good_day_2
+More alcohol,1,good_day_2
+Went to the gym,1,good_day_2
+Wine ,1,good_day_2
+Then smoke weed,1,good_day_2
+Interesting activities,1,good_day_2
+Bitterballen,1,good_day_2
+BangBros,1,good_day_2
+Learning,1,good_day_2
+Sub,1,good_day_2
 -2,1,good_day_2

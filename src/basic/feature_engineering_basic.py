@@ -19,7 +19,7 @@ def calculate_sleep_duration(bedtime):
 
 def convert_bedtime_to_sleeptime_10am(data_frame):
     if 'bedtime' in data_frame.columns:
-        data_frame['sleep_duration_to_10am'] = data_frame['bedtime'].apply(calculate_sleep_duration)
+        data_frame['sleep_to_10am'] = data_frame['bedtime'].apply(calculate_sleep_duration)
     return data_frame
 
 

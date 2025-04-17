@@ -42,7 +42,7 @@ def summarize_dataframe(df, iqr_thresh=float('inf'), iqr_degree_thresh = 120):
         missing_count = col_data.isnull().sum() + col_data.isna().sum()
         unique_count = col_data.nunique()
 
-        example_values = col_data.dropna().unique()[:3] if non_null_count > 0 else []
+        example_values = col_data.dropna().unique()[:2] if non_null_count > 0 else []
         example_values = [str(val) for val in example_values]  # Convert to string for better readability
 
         min_val, max_val, mean_val, outlier_count = None, None, None, None

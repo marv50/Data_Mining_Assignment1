@@ -18,3 +18,11 @@ def analyze_data(data_frame, name_extension, iqr_thresh=1.5):
     plot_distributions(data_frame, file_name="distributions" + name_extension + ".png")
     plot_correlation_heatmap(data_frame, file_name="correlation_heatmap" + name_extension + ".png")
 
+    for col in data_frame.columns:
+        if data_frame[col].dtype == 'float64':
+            # plot_single_distribution(data_frame, col, title=f"Distribution of {col}", xlabel=col, ylabel="Frequency",
+            #                         file_name=col + name_extension + ".png")
+            plot_single_distribution(data_frame, col, xlabel=col, ylabel="Frequency",
+                                    file_name=col + name_extension + ".png")
+    plt.close('all')  
+

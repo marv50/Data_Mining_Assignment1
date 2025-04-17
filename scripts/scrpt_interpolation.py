@@ -24,7 +24,7 @@ def interpolation(data_frame):
         data_interpolated = data_frame.copy()
         categorical_cols, numeric_cols = classify_columns(data_interpolated)
 
-        data_interpolated = interpolate_sin_cos(data_interpolated)
+        data_interpolated = interpolate_sin_cos(data_interpolated) # MUST be done before imputation. Imputation will not interpolate the sin/cos values correctly.
 
         if cat_method == "mode":
             data_interpolated = impute_categoricals_mode(data_interpolated, categorical_cols)
