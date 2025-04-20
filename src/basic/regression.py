@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from src.interpolation import classify_columns  # Assuming you have this helper function
+from src.basic.interpolation import classify_columns  # Assuming you have this helper function
 
 # --- Utility Functions ---
 

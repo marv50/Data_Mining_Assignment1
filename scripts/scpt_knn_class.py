@@ -1,4 +1,4 @@
-from src.classification import *
+from src.basic.classification import *
 
 datasets = ["mode_knn", "mode_median", "knn_median", "knn_knn"]
 full_feature_set = ["program", "sports_hours", "stress_level", "used_chatgpt", "gender", "ir_course", "bedtime_angle", "stats_course", "est_age_days", "room_estimate"]

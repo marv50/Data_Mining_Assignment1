@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from src.regression import *  # Assuming the functions like `run_experiment` are already defined
+from src.basic.regression import *  # Assuming the functions like `run_experiment` are already defined
 
 datasets = ["mode_knn", "mode_median", "knn_median", "knn_knn"]
 selected_columns = ["program", "sports_hours", "ml_course", "used_chatgpt", "gender", "ir_course", "bedtime_angle", "stats_course"]
