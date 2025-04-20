@@ -1,14 +1,44 @@
-from src.basic.classification import *
+"""
+scrpt_knn_class.py
+
+This script evaluates K-Nearest Neighbors (KNN) classifier performance
+across different datasets and feature sets. It reports mean accuracy and
+standard error over multiple random splits and generates a comparison plot.
+
+Dependencies:
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+
+Author: [Your Name]
+Date: [Today's Date]
+"""
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from src.basic.classification import run_experiment
+
+# --- Configuration ---
 
 datasets = ["mode_knn", "mode_median", "knn_median", "knn_knn"]
-full_feature_set = ["program", "sports_hours", "stress_level", "used_chatgpt", "gender", "ir_course", "bedtime_angle", "stats_course", "est_age_days", "room_estimate"]
+full_feature_set = [
+    "program", "sports_hours", "stress_level", "used_chatgpt",
+    "gender", "ir_course", "bedtime_angle", "stats_course",
+    "est_age_days", "room_estimate"
+]
 small_feature_set = ["program", "ir_course", "stress_level", "bedtime_angle"]
 
 n_runs = 50
 
-# Store results
+# --- Experiment Storage ---
+
 results_mean_knn = {'Full': {}, 'Small': {}}
 results_stderr_knn = {'Full': {}, 'Small': {}}
+
+# --- Run Experiments ---
 
 for dataset in datasets:
     # Full feature set
@@ -54,12 +84,17 @@ ax.set_ylabel('Accuracy', fontsize=24)
 ax.set_xlabel('Dataset', fontsize=24)
 ax.set_title('KNN Accuracy (Full vs Selected Features)', fontsize=28)
 ax.set_xticks(x)
-ax.set_xticklabels(datasets, fontsize=22)
+ax.set_xticklabels(labels, fontsize=22)
 ax.tick_params(axis='y', labelsize=22)
 ax.tick_params(axis='x', labelsize=22)
 ax.legend(fontsize=20)
 ax.grid(True, linestyle='--', alpha=0.7)
 
 plt.tight_layout()
+
+# Ensure figure output directory exists
+import os
+os.makedirs("fig", exist_ok=True)
+
 plt.savefig("fig/knn_features_comparison.pdf")
 plt.show()
